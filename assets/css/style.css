@@ -1,0 +1,44 @@
+h1 {
+  color: red;
+  font-family: arial;
+  font-size: 16px;
+  font-weight: 600px;
+  margin-left: 20px;
+/*  border: 1px solid blue;
+  border-top: none;
+  border-radius: 10px;*/
+  text-decoration: underline;
+  font-style: italic;
+}
+
+p {
+  color: green;
+  font-size: 12px;
+  line-height: 20px;
+  text-decoration: underline;
+  margin-left: 50px;
+}
+
+.tulisan-biru {
+  color: blue;
+}
+
+.tulisan-kuning {
+  color: yellow;
+}
+
+.tulisan-oren {
+  color: orange;
+}
+
+.tulisan-hijau {
+  color: green;
+}
+
+.tulisan-besar {
+  font-size: 50px;
+
+}
+.tulisan-miring {
+  font-style:italic;
+}
