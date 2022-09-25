@@ -1,0 +1,123 @@
+h1 {
+  font-family: arial;
+  font-style: italic;
+  font-size: all;
+  color: red;
+  text-align: center;
+  text-transform: capitalize;
+  /* color name */
+  /*color: DodgerBlue;*/
+
+  /* color rgb (red green blue) */
+  /*color: rgb(100, 36, 255);*/
+
+  /* color hexadesimal */
+  /*color: #abcdef1234567890;*/
+  /*color: #ff7898;*/
+}
+
+h2 {
+  color: rgb(100, 50, 30);
+}
+
+h3 {
+  color: #599cae;
+  text-align: right;
+}
+
+.text-align {
+  margin: 500px 0;
+}
+
+#text-decoration {
+  margin: 500px 0;
+}
+
+
+
+/*
+  - text-align = perataan huruf
+  - left, right, center, justify.
+  - semua element itu default left: 
+  - text-align: left;
+*/
+
+.title {
+  color: blue;
+  text-align: center; /* rata tengah */
+}
+
+.text-1 {
+  color: blue;
+  text-align: right;
+}
+
+.text-2 {
+  color: blue;
+  text-align: justify;
+}
+
+.text-3 {
+  color: blue;
+  text-align: left;
+  text-indent: 5%;
+}
+
+/* text-indent 
+  - biasa itu buat paragraft
+*/
+
+/* text-decoration: 
+
+  1. none
+  2. underline 
+  3. overline
+  4. line-through
+
+  5. underline overline
+
+  semua element itu text-decoration: none;
+
+  <a></a> text-decoration: underline;
+*/
+
+h1 {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: overline;
+}
+
+.konah {
+ text-decoration: line-through;
+}
+.nopeng {
+  text-decoration: underline overline;
+}
+
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+
+/* text-transform 
+  1. uppercase
+  2. lowercase
+  3. capitalize
+
+  4. 
+*/
+
+.konah {
+  text-transform: lowercase;
+}
